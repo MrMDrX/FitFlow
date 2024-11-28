@@ -1,3 +1,4 @@
+import 'package:fitflow/presentation/main/widgets/side_menu.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatelessWidget {
@@ -5,6 +6,16 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      body: SafeArea(
+        child: Row(
+          children: [
+            const Expanded(flex: 2, child: SizedBox(child: SideMenu())),
+            Expanded(flex: 7, child: Container(color: Colors.green)),
+            Expanded(flex: 3, child: Container(color: Colors.orange)),
+          ],
+        ),
+      ),
+    );
   }
 }
