@@ -12,8 +12,8 @@ class SummaryDetails extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          buildDetails('Cal', '305'),
-          buildDetails('Steps', '10983'),
+          buildDetails('Cal', '395'),
+          buildDetails('Steps', '12983'),
           buildDetails('Distance', '7km'),
           buildDetails('Sleep', '7hr'),
         ],

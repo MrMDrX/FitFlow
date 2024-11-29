@@ -1,3 +1,4 @@
+import 'package:fitflow/core/constants/app_colors.dart';
 import 'package:fitflow/data/models/graph_model.dart';
 import 'package:fitflow/data/sources/bar_graph_data.dart';
 import 'package:fitflow/presentation/dashboard/widgets/app_card.dart';
@@ -56,9 +57,10 @@ class BarGraph extends StatelessWidget {
                               child: Text(
                                 barGraphData.label[value.toInt()],
                                 style: const TextStyle(
-                                    fontSize: 11,
-                                    color: Colors.grey,
-                                    fontWeight: FontWeight.w500),
+                                  fontSize: 11,
+                                  color: AppColors.menuItem,
+                                  fontWeight: FontWeight.w500,
+                                ),
                               ),
                             );
                           },

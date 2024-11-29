@@ -53,7 +53,10 @@ class Scheduled extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const Icon(Icons.more_vert_rounded),
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.more_vert_rounded),
+                      ),
                     ],
                   ),
                 ],

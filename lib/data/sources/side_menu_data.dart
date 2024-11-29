@@ -5,7 +5,7 @@ class SideMenuData {
   final menu = const <MenuModel>[
     MenuModel(icon: Icons.home_rounded, title: 'Dashboard'),
     MenuModel(icon: Icons.person_rounded, title: 'Profile'),
-    MenuModel(icon: Icons.run_circle_rounded, title: 'Exersice'),
+    MenuModel(icon: Icons.run_circle_rounded, title: 'Exercise'),
     MenuModel(icon: Icons.settings_rounded, title: 'Settings'),
     MenuModel(icon: Icons.history_rounded, title: 'History'),
     MenuModel(icon: Icons.logout_rounded, title: 'SignOut'),

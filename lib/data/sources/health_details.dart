@@ -5,12 +5,12 @@ class HealthDetails {
   final healthData = const [
     HealthModel(
       icon: AppAssets.burn,
-      value: "305",
+      value: "395",
       title: "Calories burned",
     ),
     HealthModel(
       icon: AppAssets.steps,
-      value: "10,983",
+      value: "12,983",
       title: "Steps",
     ),
     HealthModel(
@@ -20,7 +20,7 @@ class HealthDetails {
     ),
     HealthModel(
       icon: AppAssets.sleep,
-      value: "7h48m",
+      value: "7h30m",
       title: "Sleep",
     ),
   ];
