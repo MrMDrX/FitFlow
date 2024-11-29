@@ -1,6 +1,23 @@
 # FitFlow
 
-A fitness responsive dashboard ui built with Flutter.
+FitFlow is a fitness tracking Flutter UI that provides a comprehensive dashboard to monitor health data, visualize statistics with interactive charts, and view detailed activity reports. The UI is designed to adjusts seamlessly across mobile, tablet, and desktop devices for an optimal user experience.
+
+## Features
+
+- **Interactive Line and Bar Charts**: Visualize your fitness progress with dynamic graphs.
+- **Pie Charts**: Provides a snapshot of fitness data.
+- **Responsive Layout**: The app adjusts seamlessly across mobile, tablet, and desktop devices.
+- **Side Menu**: A collapsible side navigation menu for easy access to different sections.
+
+## Screenshots
+
+| **Desktop** |
+| --- |
+| ![Desktop](readme-assets/screenshots/desktop.png) |
+
+| **Tablet** | **Mobile** |
+| --- | --- |
+| ![Tablet](readme-assets/screenshots/tablet.png) | ![Mobile](readme-assets/screenshots/mobile.png) |
 
 ## Getting Started
 
