@@ -11,4 +11,5 @@ abstract class AppColors {
   static const menuItem = Color(0xFF9E9E9E);
   static const menuItemActive = Color(0xFF000000);
   static const transparent = Color(0x00000000);
+  static const summaryDetailsCard = Color(0xFF2F353E);
 }
